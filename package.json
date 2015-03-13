@@ -1,45 +1,46 @@
 {
-  author: {
-    name: "Brandon Paton",
-    email: "bp@brandonpaton.com"
+  "author": {
+    "name": "Brandon Paton",
+    "email": "bp@brandonpaton.com"
   },
-  name: "localizejs-prerender",
-  description: "Localize.js SEO prerendering middleware for Node.js",
-  version: "0.1.0",
-  homepage: "https://github.com/paton/node-localizejs-prerender",
-  repository: {
-    type: "git",
-    url: "git://github.com/paton/node-localizejs-prerender.git"
+  "name": "localizejs-prerender",
+  "description": "Localize.js SEO prerendering middleware for Node.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/paton/node-localizejs-prerender",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paton/node-localizejs-prerender.git"
   },
-  contributors: [
+  "contributors": [
     {
-      name: "Brandon Paton",
-      email: "bp@brandonpaton.com"
+      "name": "Brandon Paton",
+      "email": "bp@brandonpaton.com"
     }
   ],
-  keywords: [
+  "keywords": [
     "translate",
     "translation",
     "localization",
     "i18n",
     "l18n",
     "localizejs",
-    "localize.js",
+    "localize.js"
     "prerender",
     "seo",
     "zombie"
   ],
-  main: "lib/prerender.js",
-  devDependencies: { },
-  license: "MIT",
-  engines: {
-    node: ">=0.6"
+  "main": "lib/prerender.js",
+  "devDependencies": {},
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
   },
-  bugs: {
-    url: "https://github.com/paton/node-localizejs/issues"
+  "bugs": {
+    "url": "https://github.com/paton/node-localizejs-prerender/issues"
   },
-  readme: "",
-  dependencies: {
-    request: "^2.51.0"
+  "readme": "",
+  "dependencies": {
+    "request": "^2.51.0"
   }
 }
+
