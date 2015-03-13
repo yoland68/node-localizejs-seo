@@ -29,7 +29,7 @@
     "seo",
     "zombie"
   ],
-  main: "lib/localize.js",
+  main: "lib/prerender.js",
   devDependencies: { },
   license: "MIT",
   engines: {
