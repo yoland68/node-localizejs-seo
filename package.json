@@ -40,7 +40,7 @@
   },
   "readme": "",
   "dependencies": {
-    "request": "^2.51.0"
+    "request": "^2.53.0"
   }
 }
 
