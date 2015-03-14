@@ -38,6 +38,16 @@ Add the Localize.js SEO middleware to your server:
 
 Include this middleware early in your application - before your application routes are created.
 
+
+##### localizejsSEO.middleware(options)`
+
+Creates the Localize.js SEO middleware. Options:
+ 
+* `rootDomain` ***Required***. The root domain of your website. For example, `http://yourwebsite.com`
+* `version` *Optional*. Cache version. Localize.js caches prerendered HTML for a number of hours. You can clear this cache immediately by changing the version when you deploy and update to your application. `version` can be a number or string like an application ID or git commit ID.  
+* `prerenderAllRequests` *Optional*. When true, *all* requests are prerendered, not just requests from robots. Only useful for testing and debugging - do not activate in production.
+* `shouldPrerenderOverride` *Optional*. A function that overrides our internal `shouldPrerender` function. When this function returns true, the middleware will activate and prerender the route.
+
 # Contribute
 
 Forks and pull requests welcome!
