@@ -5,7 +5,7 @@
   },
   "name": "localizejs-seo",
   "description": "Localize.js SEO prerendering middleware for Node.js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/paton/node-localizejs-seo",
   "repository": {
     "type": "git",
