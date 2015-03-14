@@ -1,7 +1,7 @@
 Localize.js SEO for Node.js
 ===============
 
-Node.js middleware that provides full SEO support for Node.js apps using [Localize.js](https://localizejs.com).
+Node.js middleware that provides full SEO support for Node.js apps using [Localize.js](https://localizejs.com). This middleware detects requests from search engine bots and crawlers, and replies with prerendered HTML via our hosted prerendering API.
 
 Questions? We're happy to help. [Email us](https://localizejs.com/?modal=misc/support)!.
 
