@@ -5,11 +5,11 @@
   },
   "name": "localizejs-seo",
   "description": "Localize.js SEO prerendering middleware for Node.js",
-  "version": "0.1.3",
-  "homepage": "https://github.com/paton/node-localizejs-seo",
+  "version": "0.1.4",
+  "homepage": "https://github.com/localizejs/node-localizejs-seo",
   "repository": {
     "type": "git",
-    "url": "git://github.com/paton/node-localizejs-seo.git"
+    "url": "git://github.com/localizejs/node-localizejs-seo.git"
   },
   "contributors": [
     {
@@ -37,7 +37,7 @@
     "node": ">=0.6"
   },
   "bugs": {
-    "url": "https://github.com/paton/node-localizejs-seo/issues"
+    "url": "https://github.com/localizejs/node-localizejs-seo/issues"
   },
   "readme": "",
   "dependencies": {
