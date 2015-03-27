@@ -48,7 +48,7 @@ This is a hosted prerendering service, meaning that the prerendering of your pag
 
 **Performance**:
 
-There are two built in lawyers of caching. We use Redis on our server to cache your HTML, and the reply is sent through the Amazon Cloudfront CDN to ensure extremely low latency response no matter where your server is (typically less than 20-50ms for a cached request).
+There are two built in layers of caching. We use Redis on our server to cache your HTML, and the reply is sent through the Amazon Cloudfront CDN to ensure extremely low latency response no matter where your server is (typically less than 20-50ms for a cached request).
 
 
 # Contribute
